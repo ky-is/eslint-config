@@ -1,0 +1,19 @@
+{
+	"name": "@ky-is/eslint-config",
+	"version": "0.1.0",
+	"description": "Personal ESLint rules and configuration.",
+	"author": "Kyle Coburn",
+	"license": "ISC",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ky-is/eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ky-is/eslint-config/issues"
+	},
+	"homepage": "https://github.com/ky-is/eslint-config#readme",
+	"devDependencies": {
+		"eslint": "^4.0.0"
+	}
+}
