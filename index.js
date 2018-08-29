@@ -18,6 +18,8 @@ module.exports = {
 
 	rules: {
 		'comma-dangle': ['error', 'always-multiline'],
+		'comma-spacing': 'error',
+		'computed-property-spacing': 'error',
 		'curly': 'error',
 		'indent': ['error', 'tab'],
 		'no-console': 'off',
@@ -28,6 +30,22 @@ module.exports = {
 			varsIgnorePattern: '^_',
 			argsIgnorePattern: '^_',
 		}],
+		'keyword-spacing': 'error',
 		'no-var': 'error',
+		'semi': ['error', 'never'],
+		'semi-spacing': 'error',
+		'space-before-blocks': 'error',
+		'space-before-function-paren': ['error', {
+			'anonymous': 'always',
+			'named': 'always',
+			'asyncArrow': 'always',
+		}],
+		'space-infix-ops': 'error',
+		'space-in-parens': 'error',
+		'space-unary-ops': ['error', {
+			'words': true,
+			'nonwords': false,
+			'overrides': {},
+		}],
 	},
 }
