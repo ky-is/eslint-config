@@ -17,11 +17,16 @@ module.exports = {
 	},
 
 	rules: {
+		'arrow-spacing': 'error',
 		'comma-dangle': ['error', 'always-multiline'],
 		'comma-spacing': 'error',
 		'computed-property-spacing': 'error',
 		'curly': 'error',
 		'indent': ['error', 'tab'],
+		'keyword-spacing': 'error',
+		'no-confusing-arrow': ['error', {
+			allowParens: true,
+		}],
 		'no-console': 'off',
 		'no-multiple-empty-lines': ['error', {
 			max: 1,
@@ -30,7 +35,7 @@ module.exports = {
 			varsIgnorePattern: '^_',
 			argsIgnorePattern: '^_',
 		}],
-		'keyword-spacing': 'error',
+		'no-plusplus': 'error',
 		'no-var': 'error',
 		'semi': ['error', 'never'],
 		'semi-spacing': 'error',
