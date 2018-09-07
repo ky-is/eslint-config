@@ -33,7 +33,7 @@ module.exports = {
 		}],
 		'no-unused-vars': ['warn', {
 			varsIgnorePattern: '^_',
-			argsIgnorePattern: '^_',
+			args: 'none',
 		}],
 		'no-plusplus': 'error',
 		'no-var': 'error',
@@ -41,16 +41,16 @@ module.exports = {
 		'semi-spacing': 'error',
 		'space-before-blocks': 'error',
 		'space-before-function-paren': ['error', {
-			'anonymous': 'always',
-			'named': 'always',
-			'asyncArrow': 'always',
+			anonymous: 'always',
+			named: 'always',
+			asyncArrow: 'always',
 		}],
 		'space-infix-ops': 'error',
 		'space-in-parens': 'error',
 		'space-unary-ops': ['error', {
-			'words': true,
-			'nonwords': false,
-			'overrides': {},
+			words: true,
+			nonwords: false,
+			overrides: {},
 		}],
 	},
 }
