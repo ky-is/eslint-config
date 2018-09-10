@@ -17,10 +17,7 @@ module.exports = {
 		// 	],
 		// }],
 		'vue/html-indent': 'off',
-		'vue/max-attributes-per-line': ['error', {
-			singleline: 999,
-			multiline: 0,
-		}],
+		'vue/max-attributes-per-line': 'off',
 		// 'vue/no-spaces-around-equal-signs-in-attribute': 'error',
 		'vue/script-indent': ['error', 'tab'],
 		// 'vue/singleline-html-element-content-newline': ['error', {
