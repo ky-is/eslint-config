@@ -36,7 +36,14 @@ module.exports = {
 			args: 'none',
 		}],
 		'no-plusplus': 'error',
+		'no-use-before-define': ['error', {
+			functions: false,
+			classes: true,
+		}],
 		'no-var': 'error',
+		'prefer-const': ['error', {
+			destructuring: 'any',
+		}],
 		'semi': ['error', 'never'],
 		'semi-spacing': 'error',
 		'space-before-blocks': 'error',
