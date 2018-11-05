@@ -12,6 +12,11 @@ module.exports = {
 		'vue/attribute-hyphenation': ['error', 'never'],
 		'vue/component-name-in-template-casing': ['error', 'PascalCase', {
 			ignores: [
+				'component',
+				'router-link',
+				'router-view',
+				'transition',
+				'transition-group',
 				'v-separate',
 			],
 		}],
