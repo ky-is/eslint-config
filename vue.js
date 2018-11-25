@@ -25,5 +25,6 @@ module.exports = {
 		'vue/no-spaces-around-equal-signs-in-attribute': 'error',
 		'vue/no-v-html': 'off',
 		'vue/script-indent': ['error', 'tab'],
+		'vue/singleline-html-element-content-newline': 'off',
 	},
 }
