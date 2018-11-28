@@ -22,6 +22,7 @@ module.exports = {
 		}],
 		'vue/html-indent': 'off',
 		'vue/max-attributes-per-line': 'off',
+		'vue/multiline-html-element-content-newline': 'off',
 		'vue/no-spaces-around-equal-signs-in-attribute': 'error',
 		'vue/no-v-html': 'off',
 		'vue/script-indent': ['error', 'tab'],
