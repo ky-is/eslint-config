@@ -13,6 +13,7 @@ module.exports = {
 		'vue/component-name-in-template-casing': ['error', 'PascalCase', {
 			ignores: [
 				'component',
+				'keep-alive',
 				'router-link',
 				'router-view',
 				'transition',
