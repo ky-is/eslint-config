@@ -3,17 +3,17 @@ module.exports = {
 		'@ky-is',
 	],
 
-	parser: 'typescript-eslint-parser',
+	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		sourceType: 'module',
 	},
 
 	plugins: [
-		'typescript',
+		'@typescript-eslint',
 	],
 
 	rules: {
 		'no-undef': 'off',
-		'typescript/no-unused-vars': 'error',
+		'@typescript-eslint/no-unused-vars': 'error',
 	},
 }

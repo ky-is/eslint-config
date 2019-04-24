@@ -42,7 +42,7 @@ module.exports = {
 		}],
 		'no-var': 'error',
 		'prefer-const': ['error', {
-			destructuring: 'any',
+			destructuring: 'all',
 		}],
 		'semi': ['error', 'never'],
 		'semi-spacing': 'error',
