@@ -10,6 +10,9 @@ module.exports = {
 
 	rules: {
 		'vue/attribute-hyphenation': ['error', 'never'],
+		'vue/attributes-order': ['error', {
+			order: [ 'CONDITIONALS', 'DEFINITION', 'LIST_RENDERING', 'RENDER_MODIFIERS', 'GLOBAL', 'UNIQUE', 'TWO_WAY_BINDING', 'OTHER_DIRECTIVES', 'OTHER_ATTR', 'EVENTS', 'CONTENT' ],
+		}],
 		'vue/component-name-in-template-casing': ['error', 'PascalCase', {
 			ignores: [
 				'component',
