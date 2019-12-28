@@ -13,6 +13,7 @@ module.exports = {
 		sourceType: 'module',
 		ecmaFeatures: {
 			impliedStrict: true,
+			jsx: false,
 		},
 	},
 
@@ -24,12 +25,15 @@ module.exports = {
 		'curly': 'error',
 		'indent': ['error', 'tab'],
 		'keyword-spacing': 'error',
+		'multiline-ternary': 'always-multiline',
 		'no-confusing-arrow': ['error', {
 			allowParens: true,
 		}],
 		'no-console': 'off',
 		'no-multiple-empty-lines': ['error', {
 			max: 1,
+			maxBOF: 0,
+			maxEOF: 1,
 		}],
 		'no-unused-vars': ['warn', {
 			varsIgnorePattern: '^_',
