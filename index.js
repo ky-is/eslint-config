@@ -25,7 +25,7 @@ module.exports = {
 		'curly': 'error',
 		'indent': ['error', 'tab'],
 		'keyword-spacing': 'error',
-		'multiline-ternary': 'always-multiline',
+		'multiline-ternary': ['error', 'always-multiline'],
 		'no-confusing-arrow': ['error', {
 			allowParens: true,
 		}],
