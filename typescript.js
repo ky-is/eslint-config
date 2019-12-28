@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'@ky-is',
+		'@ky-is/eslint-config/typescript-base',
 	],
 
 	parser: '@typescript-eslint/parser',
@@ -11,13 +11,4 @@ module.exports = {
 	plugins: [
 		'@typescript-eslint',
 	],
-
-	rules: {
-		'no-undef': 'off',
-		'no-unused-vars': 'off',
-		'@typescript-eslint/no-unused-vars': ['warn', {
-			varsIgnorePattern: '^_',
-			args: 'none',
-		}],
-	},
 }
