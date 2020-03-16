@@ -1,3 +1,5 @@
+const { NO_UNUSED_VARS } = require('rules.js')
+
 module.exports = {
 	extends: [
 		'@ky-is',
@@ -6,9 +8,6 @@ module.exports = {
 	rules: {
 		'no-undef': 'off',
 		'no-unused-vars': 'off',
-		'@typescript-eslint/no-unused-vars': ['warn', {
-			varsIgnorePattern: '^_',
-			args: 'none',
-		}],
+		'@typescript-eslint/no-unused-vars': ['warn', NO_UNUSED_VARS],
 	},
 }

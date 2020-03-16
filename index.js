@@ -1,3 +1,5 @@
+const { NO_UNUSED_VARS } = require('rules.js')
+
 module.exports = {
 	root: true,
 
@@ -35,10 +37,7 @@ module.exports = {
 			maxBOF: 0,
 			maxEOF: 1,
 		}],
-		'no-unused-vars': ['warn', {
-			varsIgnorePattern: '^_',
-			args: 'none',
-		}],
+		'no-unused-vars': ['warn', NO_UNUSED_VARS],
 		'no-plusplus': 'error',
 		'no-use-before-define': ['error', {
 			functions: false,
