@@ -1,4 +1,4 @@
-const { NO_UNUSED_VARS } = require('rules.js')
+const { NO_UNUSED_VARS } = require('./rules.js')
 
 module.exports = {
 	root: true,
@@ -7,11 +7,10 @@ module.exports = {
 
 	env: {
 		node: true,
-		es6: true,
 	},
 
 	parserOptions: {
-		ecmaVersion: 9,
+		ecmaVersion: 2020,
 		sourceType: 'module',
 		ecmaFeatures: {
 			impliedStrict: true,

@@ -1,7 +1,7 @@
 module.exports = {
 	extends: [
 		'@ky-is',
-		'plugin:vue/vue3',
+		'plugin:vue/vue3-recommended',
 	],
 
 	env: {
@@ -11,7 +11,7 @@ module.exports = {
 	rules: {
 		'vue/attribute-hyphenation': ['error', 'never'],
 		'vue/component-name-in-template-casing': ['error', 'PascalCase'],
-		'vue/html-indent': ['error', type, {
+		'vue/html-indent': ['error', 'tab', {
 			baseIndent: 0,
 			alignAttributesVertically: false,
 		}],
