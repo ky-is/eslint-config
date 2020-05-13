@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'@ky-is/eslint-config/typescript-base',
+		'@ky-is/eslint-config',
 	],
 
 	parser: '@typescript-eslint/parser',
