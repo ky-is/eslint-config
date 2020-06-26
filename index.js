@@ -19,19 +19,19 @@ module.exports = {
 	},
 
 	rules: {
-		'arrow-spacing': 'error',
-		'comma-dangle': ['error', 'always-multiline'],
+		'arrow-spacing': 'warn',
+		'comma-dangle': ['warn', 'always-multiline'],
 		'comma-spacing': 'error',
-		'computed-property-spacing': 'error',
-		'curly': 'error',
-		'indent': ['error', 'tab'],
-		'keyword-spacing': 'error',
-		'multiline-ternary': ['error', 'always-multiline'],
+		'computed-property-spacing': 'warn',
+		'curly': 'warn',
+		'indent': ['warn', 'tab'],
+		'keyword-spacing': 'warn',
+		'multiline-ternary': ['warn', 'always-multiline'],
 		'no-confusing-arrow': ['error', {
 			allowParens: true,
 		}],
 		'no-console': 'off',
-		'no-multiple-empty-lines': ['error', {
+		'no-multiple-empty-lines': ['warn', {
 			max: 1,
 			maxBOF: 0,
 			maxEOF: 1,
@@ -42,21 +42,21 @@ module.exports = {
 			functions: false,
 			classes: true,
 		}],
-		'no-var': 'error',
-		'prefer-const': ['error', {
+		'no-var': 'warn',
+		'prefer-const': ['warn', {
 			destructuring: 'all',
 		}],
-		'semi': ['error', 'never'],
-		'semi-spacing': 'error',
-		'space-before-blocks': 'error',
-		'space-before-function-paren': ['error', {
+		'semi': ['warn', 'never'],
+		'semi-spacing': 'warn',
+		'space-before-blocks': 'warn',
+		'space-before-function-paren': ['warn', {
 			anonymous: 'always',
 			named: 'always',
 			asyncArrow: 'always',
 		}],
-		'space-infix-ops': 'error',
-		'space-in-parens': 'error',
-		'space-unary-ops': ['error', {
+		'space-infix-ops': 'warn',
+		'space-in-parens': 'warn',
+		'space-unary-ops': ['warn', {
 			words: true,
 			nonwords: false,
 			overrides: {},
