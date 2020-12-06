@@ -5,6 +5,11 @@ module.exports = {
 
 	extends: 'eslint:recommended',
 
+	ignorePatterns: [
+		'dist/',
+		'~$dist/',
+	],
+
 	env: {
 		node: true,
 	},
