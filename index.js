@@ -41,8 +41,9 @@ module.exports = {
 			maxBOF: 0,
 			maxEOF: 1,
 		}],
-		'no-unused-vars': ['warn', NO_UNUSED_VARS],
 		'no-plusplus': 'error',
+		'no-unreachable': 'warn',
+		'no-unused-vars': ['warn', NO_UNUSED_VARS],
 		'no-use-before-define': ['error', {
 			functions: false,
 			classes: true,
