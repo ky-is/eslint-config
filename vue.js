@@ -21,5 +21,7 @@ module.exports = {
 		'vue/multiline-html-element-content-newline': 'off',
 		'vue/script-indent': ['warn', 'tab'],
 		'vue/singleline-html-element-content-newline': 'off',
+		// 'vue/v-for-delimiter-style': 'of',
+		'vue/v-slot-style': ['warn', 'shorthand'],
 	},
 }
