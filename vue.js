@@ -9,8 +9,8 @@ module.exports = {
 	},
 
 	rules: {
-		'vue/attribute-hyphenation': ['error', 'never'],
-		'vue/attributes-order': ['error', {
+		'vue/attribute-hyphenation': ['warn', 'never'],
+		'vue/attributes-order': ['warn', {
 			order: [
 				'CONDITIONALS',
 				'DEFINITION',
@@ -25,7 +25,7 @@ module.exports = {
 				'CONTENT',
 			],
 		}],
-		'vue/component-name-in-template-casing': ['error', 'PascalCase', {
+		'vue/component-name-in-template-casing': ['warn', 'PascalCase', {
 			ignores: [
 				'component',
 				'keep-alive',
@@ -39,7 +39,7 @@ module.exports = {
 		'vue/html-indent': 'off',
 		'vue/max-attributes-per-line': 'off',
 		'vue/multiline-html-element-content-newline': 'off',
-		'vue/no-spaces-around-equal-signs-in-attribute': 'error',
+		'vue/no-spaces-around-equal-signs-in-attribute': 'warn',
 		'vue/no-v-html': 'off',
 		'vue/script-indent': ['error', 'tab'],
 		'vue/singleline-html-element-content-newline': 'off',
