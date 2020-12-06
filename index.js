@@ -5,13 +5,17 @@ module.exports = {
 
 	extends: 'eslint:recommended',
 
+	ignorePatterns: [
+		'dist/',
+		'~$dist/',
+	],
+
 	env: {
 		node: true,
-		es6: true,
 	},
 
 	parserOptions: {
-		ecmaVersion: 9,
+		ecmaVersion: 2020,
 		sourceType: 'module',
 		ecmaFeatures: {
 			impliedStrict: true,
