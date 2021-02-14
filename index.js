@@ -57,7 +57,7 @@ module.exports = {
 		'space-before-blocks': 'warn',
 		'space-before-function-paren': ['warn', {
 			anonymous: 'always',
-			named: 'never',
+			named: 'always',
 			asyncArrow: 'always',
 		}],
 		'space-infix-ops': 'warn',
