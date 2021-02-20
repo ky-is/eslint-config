@@ -21,6 +21,9 @@
 		"eslint": ">= 7"
 	},
 	"scripts": {
+		"npm:patch": "npm version patch -m \"🔖 %s\"",
+		"npm:minor": "npm version minor -m \"🔖 %s\"",
+		"npm:major": "npm version major -m \"🔖 %s\"",
 		"dryRun": "npm publish --access public --dry-run"
 	}
 }
