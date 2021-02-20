@@ -29,4 +29,13 @@ module.exports = {
 		// 'vue/v-for-delimiter-style': 'of',
 		'vue/v-slot-style': ['warn', 'shorthand'],
 	},
+
+	overrides: [
+		{
+			files: ['*.vue'],
+			rules: {
+				'no-unused-vars': 'off',
+			},
+		},
+	],
 }
