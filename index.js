@@ -1,4 +1,4 @@
-const { NO_UNUSED_VARS } = require('./rules.js')
+const { varsIgnorePattern } = require('./rules.js')
 
 module.exports = {
 	root: true,
@@ -41,7 +41,10 @@ module.exports = {
 			maxBOF: 0,
 			maxEOF: 1,
 		}],
-		'no-unused-vars': ['warn', NO_UNUSED_VARS],
+		'no-unused-vars': ['warn', {
+			varsIgnorePattern,
+			args: 'none',
+		}],
 		'no-plusplus': 'error',
 		'no-use-before-define': ['error', {
 			functions: false,

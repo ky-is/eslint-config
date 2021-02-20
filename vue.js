@@ -1,4 +1,4 @@
-const { NO_UNUSED_VARS } = require('./rules.js')
+const { varsIgnorePattern } = require('./rules.js')
 
 module.exports = {
 	extends: [
@@ -21,7 +21,9 @@ module.exports = {
 		}],
 		'vue/max-attributes-per-line': 'off',
 		'vue/multiline-html-element-content-newline': 'off',
-		'vue/no-unused-vars': ['warn', NO_UNUSED_VARS],
+		'vue/no-unused-vars': ['warn', {
+			ignorePattern: varsIgnorePattern,
+		}],
 		'vue/script-indent': ['warn', 'tab'],
 		'vue/singleline-html-element-content-newline': 'off',
 		// 'vue/v-for-delimiter-style': 'of',
