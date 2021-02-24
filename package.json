@@ -25,6 +25,6 @@
 		"npm:minor": "npm version minor -m \"🔖 %s\"",
 		"npm:major": "npm version major -m \"🔖 %s\"",
 		"publish:dryrun": "npm publish --access public --dry-run",
-		"publish": "npm publish --access public && git push --tags"
+		"publish": "git push && git push --tags && npm publish --access public"
 	}
 }
