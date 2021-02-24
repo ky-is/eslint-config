@@ -31,6 +31,10 @@ module.exports = {
 	},
 
 	overrides: [
+		{ // HACK: https://github.com/vuejs/eslint-plugin-vue/issues/1355
+			files: ['*.html'],
+			rules: { 'vue/comment-directive': 'off' },
+		},
 		{
 			files: ['*.vue'],
 			rules: {
