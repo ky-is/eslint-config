@@ -1,3 +1,5 @@
+// pnpm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
+
 module.exports = {
 	extends: [
 		'@ky-is',
