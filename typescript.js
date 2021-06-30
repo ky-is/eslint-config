@@ -6,10 +6,10 @@ module.exports = {
 	],
 
 	rules: {
-		'@typescript-eslint/consistent-type-imports': {
+		'@typescript-eslint/consistent-type-imports': ['warn', {
 			prefer: 'type-imports',
 			disallowTypeAnnotations: true,
-		},
+		}],
 		'indent': 'off',
 		'@typescript-eslint/indent': ['warn', 'tab'],
 	},

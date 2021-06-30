@@ -69,5 +69,10 @@ module.exports = {
 			nonwords: false,
 			overrides: {},
 		}],
+		'no-multi-spaces': ['warn', {
+			exceptions: {
+				'Property': false,
+			},
+		}],
 	},
 }
