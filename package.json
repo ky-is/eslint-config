@@ -1,6 +1,6 @@
 {
 	"name": "@ky-is/eslint-config",
-	"version": "2.3.5",
+	"version": "2.3.6",
 	"description": "Personal ESLint rules and configuration.",
 	"author": "Kyle Coburn",
 	"license": "ISC",
