@@ -36,6 +36,12 @@ module.exports = {
 			allowParens: true,
 		}],
 		'no-console': 'off',
+		'no-empty': 'warn',
+		'no-multi-spaces': ['warn', {
+			exceptions: {
+				'Property': false,
+			},
+		}],
 		'no-multiple-empty-lines': ['warn', {
 			max: 1,
 			maxBOF: 0,
@@ -68,11 +74,6 @@ module.exports = {
 			words: true,
 			nonwords: false,
 			overrides: {},
-		}],
-		'no-multi-spaces': ['warn', {
-			exceptions: {
-				'Property': false,
-			},
 		}],
 	},
 }
