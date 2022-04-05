@@ -26,14 +26,14 @@ module.exports = {
 	rules: {
 		'arrow-spacing': 'warn',
 		'comma-dangle': ['warn', 'always-multiline'],
-		'comma-spacing': 'error',
+		'comma-spacing': 'warn',
 		'computed-property-spacing': 'warn',
-		'curly': 'warn',
+		'curly': ['error', 'multi-line', 'consistent'],
 		'indent': ['warn', 'tab'],
 		'keyword-spacing': 'warn',
 		'multiline-ternary': ['warn', 'always-multiline'],
 		'no-confusing-arrow': ['error', {
-			allowParens: true,
+			onlyOneSimpleParam: true,
 		}],
 		'no-console': 'off',
 		'no-empty': 'warn',
@@ -52,9 +52,10 @@ module.exports = {
 			args: 'none',
 		}],
 		'no-plusplus': 'error',
-		'no-use-before-define': ['error', {
+		'no-use-before-define': ['warn', {
 			functions: false,
-			classes: true,
+			classes: false,
+			variables: true,
 		}],
 		'no-var': 'warn',
 		'prefer-const': ['warn', {
