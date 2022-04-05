@@ -12,5 +12,6 @@ module.exports = {
 		}],
 		'indent': 'off',
 		'@typescript-eslint/indent': ['warn', 'tab'],
+		'@typescript-eslint/strict-boolean-expressions': 'warn',
 	},
 }
