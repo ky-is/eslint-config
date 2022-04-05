@@ -1,6 +1,6 @@
 {
 	"name": "@ky-is/eslint-config",
-	"version": "2.3.6",
+	"version": "2.4.0",
 	"description": "Personal ESLint rules and configuration.",
 	"author": "Kyle Coburn",
 	"license": "ISC",
@@ -14,17 +14,11 @@
 	},
 	"homepage": "https://github.com/ky-is/eslint-config#readme",
 	"devDependencies": {
-		"@typescript-eslint/parser": "^4.9.0",
-		"eslint": "^7.15.0"
+		"@typescript-eslint/parser": "^5.18.0",
+		"eslint": "^8.12.0",
+		"typescript": "^4.6.3"
 	},
 	"peerDependencies": {
-		"eslint": ">= 7"
-	},
-	"scripts": {
-		"npm:patch": "npm version patch -m \"🔖 %s\"",
-		"npm:minor": "npm version minor -m \"🔖 %s\"",
-		"npm:major": "npm version major -m \"🔖 %s\"",
-		"publish:dryrun": "npm publish --access public --dry-run",
-		"publish": "git push && git push --tags && npm publish --access public"
+		"eslint": ">= 8"
 	}
 }
