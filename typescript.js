@@ -15,12 +15,19 @@ module.exports = {
 			disallowTypeAnnotations: true,
 		}],
 		'indent': 'off',
+		'@typescript-eslint/ban-types': ['warn', {
+			extendDefaults: true,
+			types: {
+				Object: false,
+			},
+		}],
 		'@typescript-eslint/indent': ['warn', 'tab'],
 		'@typescript-eslint/no-empty-function': 'off',
 		'@typescript-eslint/no-explicit-any': 'off',
 		'@typescript-eslint/no-inferrable-types': ['warn', {
 			ignoreParameters: true,
 		}],
+		'@typescript-eslint/no-non-null-assertion': 'off',
 		'no-unused-vars': 'off',
 		'@typescript-eslint/no-unused-vars': 'off',
 		'@typescript-eslint/strict-boolean-expressions': 'warn',

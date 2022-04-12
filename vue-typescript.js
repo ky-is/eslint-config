@@ -9,4 +9,7 @@ module.exports = {
 		extraFileExtensions: ['.vue'],
 		parser: '@typescript-eslint/parser',
 	},
+	rules: {
+		'no-unused-vars': 'off',
+	},
 }
