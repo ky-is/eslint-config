@@ -1,6 +1,7 @@
-const { varsIgnorePattern } = require('./rules.js')
+// pnpm i -D vue-eslint-parser
 
 module.exports = {
+	parser: 'vue-eslint-parser',
 	extends: [
 		'@ky-is',
 		'plugin:vue/vue3-recommended',
@@ -18,12 +19,11 @@ module.exports = {
 		}],
 		'vue/html-indent': ['warn', 'tab', {
 			alignAttributesVertically: false,
+			baseIndent: 0,
 		}],
 		'vue/max-attributes-per-line': 'off',
 		'vue/multiline-html-element-content-newline': 'off',
-		'vue/no-unused-vars': ['warn', {
-			ignorePattern: varsIgnorePattern,
-		}],
+		'vue/no-unused-vars': 'off',
 		'vue/script-indent': ['warn', 'tab'],
 		'vue/singleline-html-element-content-newline': 'off',
 		// 'vue/v-for-delimiter-style': 'of',

@@ -1,9 +1,12 @@
-// pnpm i -D @vue/eslint-config-typescript
+// pnpm i -D vue-eslint-parser @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 module.exports = {
 	extends: [
 		'@ky-is/eslint-config/typescript',
 		'@ky-is/eslint-config/vue',
-		'@vue/typescript',
 	],
+	parserOptions: {
+		extraFileExtensions: ['.vue'],
+		parser: '@typescript-eslint/parser',
+	},
 }

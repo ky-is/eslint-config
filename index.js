@@ -1,5 +1,3 @@
-const { varsIgnorePattern } = require('./rules.js')
-
 module.exports = {
 	root: true,
 
@@ -48,7 +46,7 @@ module.exports = {
 			maxEOF: 1,
 		}],
 		'no-unused-vars': ['warn', {
-			varsIgnorePattern,
+			varsIgnorePattern: '^_',
 			args: 'none',
 		}],
 		'no-plusplus': 'error',
